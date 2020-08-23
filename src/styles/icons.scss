@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Nucleo';
+  src: url('/fonts/Nucleo.woff') format('woff');
+}
+
+.icon {
+  font: normal normal normal 1em/1 'Nucleo';
+  display: inline-block;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote('"\\#{$str}"');
+}
+
+$icon-facebook: unicode(ea02);
+$icon-github: unicode(ea03);
+$icon-twitter: unicode(ea04);
+$icon-linkedin: unicode(ea05);
+
+.icon-facebook::before {
+  content: $icon-facebook;
+}
+
+.icon-github::before {
+  content: $icon-github;
+}
+
+.icon-twitter::before {
+  content: $icon-twitter;
+}
+
+.icon-linkedin::before {
+  content: $icon-linkedin;
+}
