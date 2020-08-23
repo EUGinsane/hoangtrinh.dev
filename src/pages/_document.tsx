@@ -1,18 +1,7 @@
 import React from 'react';
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  DocumentContext,
-} from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class _Document extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initProps = await Document.getInitialProps(ctx);
-    return { ...initProps };
-  }
-
   render() {
     return (
       <Html lang="en">
