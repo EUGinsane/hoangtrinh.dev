@@ -8,11 +8,11 @@ const _App = ({ Component, pageProps }: AppProps) => (
       <title>Hoang Trinh&apos;s Website</title>
       <meta
         property="og:url"
-        content="https://hoangtrinh.dev/demo.png"
+        content="https://hoangtrinh.dev/images/demo.png"
       />
       <meta
         property="og:image"
-        content="https://hoangtrinh.dev/demo.png"
+        content="https://hoangtrinh.dev/images/demo.png"
       />
       <meta
         name="description"
