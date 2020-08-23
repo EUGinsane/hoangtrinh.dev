@@ -6,13 +6,16 @@ const _App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
       <title>Hoang Trinh&apos;s Website</title>
-      <meta
-        property="og:url"
-        content="https://hoangtrinh.dev/images/demo.png"
-      />
+      <meta property="og:title" content="Hoang Trinh's Website" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://hoangtrinh.dev" />
       <meta
         property="og:image"
         content="https://hoangtrinh.dev/images/demo.png"
+      />
+      <meta
+        property="og:description"
+        content="A passionated developer who loves solving problems."
       />
       <meta
         name="description"
