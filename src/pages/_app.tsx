@@ -17,6 +17,8 @@ const _App = ({ Component, pageProps }: AppProps) => (
         property="og:description"
         content="A passionated developer who loves solving problems."
       />
+      <meta property="article:published_time" content="2020-08-23" />
+      <meta name="author" content="Hoang Trinh" />
       <meta
         name="description"
         content="A passionated developer who loves solving problems."
