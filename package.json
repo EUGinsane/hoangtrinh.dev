@@ -10,7 +10,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "next": "9.5.2",
+    "next": "^10.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.10"
