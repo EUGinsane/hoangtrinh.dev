@@ -32,7 +32,7 @@ const contributions = [
 const socials = [
   {
     icon: 'icon icon-facebook',
-    url: 'https://fb.com/EUGinsane',
+    url: 'tikivn://hello',
   },
   {
     icon: 'icon icon-linkedin',
