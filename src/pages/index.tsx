@@ -51,9 +51,9 @@ const socials = [
 
 const IndexPage: NextPage = () => {
   useEffect(() => {
-    setTimeout(() => window.location.replace('tikivn://hello'), 3000);
+    setTimeout(() => window.location.replace('tikivn://payment?data=eyJ0cmFuc2FjdGlvbl9pZCI6IjIwMjIwMzAxMTQwNzA3ODk0LTItNDAwLTM4ODYiLCJhbW91bnQiOjIwMDIwMDAsInN0YXR1cyI6IlNVQ0NFU1MiLCJtZXJjaGFudF9pZCI6ImRvcmkiLCJtZXJjaGFudF9wcm9maWxlX2lkIjpudWxsLCJtZXJjaGFudF9yZWZlcmVuY2VfaWQiOiIiLCJwYXltZW50X21ldGhvZCI6Im1vbW8iLCJyZXN1bHRfY29kZSI6IjAiLCJtZXNzYWdlIjpudWxsLCJleHRyYSI6eyJwcm92aWRlcl90cmFuc2FjdGlvbl9pZCI6IjI2NDY1MjAwOTUiLCJwYXJ0bmVyX3RyYW5zYWN0aW9uX2lkIjoiMjAyMjAzMDFNTS0yMDIyMDMwMTE0MDcwNzg5NC0yLTQwMC0zODg2LTE2NDYxMTg0Mjc4OTgifSwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly9hcGkuczE0ZS5kZXYvcGF5bWVudC92MS9yZXR1cm4ifQ%3D%3D'), 3000);
   }, []);
-  
+
   return (
     <main className={styles.main}>
       <div className={styles.wrapper}>
