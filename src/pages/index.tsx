@@ -1,4 +1,5 @@
 import { NextPage } from 'next';
+import { useEffect } from 'react';
 import styles from '../styles/index.module.scss';
 
 const contributions = [
@@ -49,6 +50,10 @@ const socials = [
 ];
 
 const IndexPage: NextPage = () => {
+  useEffect(() => {
+    setTimeout(() => window.location.replace('tikivn://hello'), 3000);
+  }, []);
+  
   return (
     <main className={styles.main}>
       <div className={styles.wrapper}>
