@@ -27,6 +27,21 @@ const contributions = [
     alt: 'Drobebox',
     url: 'https://drobebox.com',
   },
+  {
+    logo: 'images/agilelab_logo.png',
+    alt: 'AgileLab',
+    url: 'https://agilelab.sg',
+  },
+  {
+    logo: 'images/tiki_logo.png',
+    alt: 'tiki',
+    url: 'https://tiki.vn',
+  },
+  {
+    logo: 'images/nuclent_logo.png',
+    alt: 'nuclent',
+    url: 'https://www.nuclent.com/',
+  },
 ];
 
 const socials = [
@@ -41,10 +56,6 @@ const socials = [
   {
     icon: 'icon icon-github',
     url: 'https://github.com/EUGinsane',
-  },
-  {
-    icon: 'icon icon-twitter',
-    url: 'https://twitter.com/hoangtrinhit',
   },
 ];
 
